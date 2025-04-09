@@ -22,8 +22,8 @@
   "license": "AGPL-3.0-or-later",
   "private": true,
   "scripts": {
-    "dev-server": "encore dev-server",
-    "dev": "encore dev",
+    "dev-server": "node api.js && encore dev-server",
+    "dev": "node api.js && encore dev",
     "watch": "encore dev --watch",
     "build": "encore production --progress"
   },
